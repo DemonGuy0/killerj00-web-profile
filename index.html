@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portafolio - Killerj00</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css" />
+  </head>
+  <body>
+    <header id="nombre-title">
+      <h1 class="fade-in"><b><\> </b>killerj00</h1>
+      <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">My skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+    
+    <main>
+      <section id="home" class="sobre-mi">
+        <div id="presentacion">
+          <h2 class="typing-text"><b>Frontend</b>-Developer</h2>
+          <span class="fade-in-delay">Creative Frontend-Developer</span>
+        </div>
+        <div id="content">
+          <img src="profile.png" alt="Killerj00 Profile" class="profile-img" />
+          <h2 class="slide-up"><b>I'm</b> Killerj00</h2>
+        </div>
+        <div id="about" class="about-me">
+          <h2 class="fade-in-up">About <b>Me</b></h2>
+          <p class="fade-in-up"><b>full-stack web developer</b></p>
+          <p id="text" class="fade-in-up">Soy un usuario de telegram y en mi tiempo libre me gusta aprender programacion y desarrollo web. Desde los 15 años me interesó este maravilloso mumdo de la tecnologia y hoy en dia estoy tratando de adquirir todo el conocimiento posible sobre esta tecnologia ya que en un futuro espero convertirme en un verdadero profesional en el mundo de la programacion.</p>
+          <div id="hire-buton" class="fade-in-up">
+            <a href="#contact">Hire me</a>
+          </div>
+        </div>
+        <div id="skills" class="progress-box">
+          <div id="title-progress">
+            <h2 class="fade-in-up"><b>Mi</b> Progreso</h2>
+          </div>
+          <div id="progress-bar">
+             <ol>
+               <li class="skill-item">HTML</li>
+               <progress class="skill-progress" value="0" max="100" data-value="67">67%</progress>
+               <li class="skill-item">CSS3</li>
+               <progress class="skill-progress" value="0" max="100" data-value="62">62%</progress>
+               <li class="skill-item">JavaScript</li>
+               <progress class="skill-progress" value="0" max="100" data-value="29">29%</progress>
+               <li class="skill-item">Python</li>
+               <progress class="skill-progress" value="0" max="100" data-value="47">47%</progress>
+             </ol>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contacto">
+        <div id="contact-title">
+          <h2 class="fade-in-up"><b>C</b>ontacto</h2>
+        </div>
+          <form class="fade-in-up">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" id="nombre" placeholder="Tu nombre" required />
+            </div>
+            
+            <div class="campo">
+              <label for="email">Correo Electronico</label>
+              <input type="email" name="email" id="email" placeholder="tu@email.com" required />
+            </div>
+            
+            <div class="campo-texto">
+              <label for="texto">Mensaje</label>
+              <textarea name="textarea" id="textarea" placeholder="Tu mensaje aquí..." rows="6" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Enviar Mensaje</button>
+          </form>
+      </section>
+    </main>
+    
+    <footer class="fade-in">
+      <p>&copy; 2025 Killerj00 - Frontend Developer Portfolio</p>
+    </footer>
+    
+    <script src="animations.js"></script>
+  </body>
+</html>
